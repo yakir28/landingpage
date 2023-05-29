@@ -1,0 +1,138 @@
+body{
+    overflow-x:hidden;
+}
+head, header, .services, .about, .contact, .portfolio, .faq{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#hero{
+    
+    background-image: url(uploads/IMG_8125.jpg);
+    background-size:cover;
+    background-color: transparent;
+   
+    background-color: #000;
+    min-height: 90vh;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    overflow-x: hidden;
+    margin-bottom: 5%;
+
+
+}
+@media (max-width: 768px) {
+    #hero {
+        margin-bottom: 5%;
+    }
+    #hero #mx-image{
+        max-height: 70vh;
+    }
+
+    #social-links-col{
+    justify-content: center;
+    align-items: center;
+    }
+    #overlay{
+        position: absolute;
+    }
+
+}
+#hero #mx-image{
+    max-height: 65vh;
+    max-width: 800px;
+    width: 100%;
+}
+
+#hero #image{
+    width: 700px;
+    height: 500px;
+}
+#hero #link, #link-2{
+    text-decoration: none;
+}
+#hero #link:hover{
+color:#000;
+}
+#hero h1{
+    font-size: 50px;
+}
+#hero h2{
+    font-size: 25px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 101%;
+    background: linear-gradient(0deg, #72D6FE 0%, #000000B8 100%);
+    opacity: 0.9;
+}
+#overlay{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 25%;
+    background: linear-gradient(to top, #000 0%, #6713d2 100%);
+    opacity: 0.4;
+    border-bottom-right-radius:155%;
+}
+
+#social-link{
+    font-size: 40px;
+}
+#social-link-2{
+
+    font-size: 40px;
+
+}
+#social-link:hover{
+opacity: 0.7;
+}
+
+
+#p-ab{
+    position: absolute;
+    height: 100%;
+}
+#p-ab h1{
+    font-size:90px;
+    font-family: Roboto;
+}
+#p-ab h2{
+    font-size:50px;
+    font-family: Roboto;
+    color:#fff;
+}
+
+
+#section-title::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 10px;
+    background: #72D6FE;
+    bottom: 0;
+    color:#fff;
+}
+
+
+#ac-outline{
+    background: none;
+}
+
+#process{
+    font-size: 60px;
+}
+
+#form-input{
+    background:none;
+}
+
