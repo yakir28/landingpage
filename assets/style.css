@@ -13,7 +13,7 @@ head, header, .services, .about, .contact, .portfolio, .faq{
     background-color: transparent;
    
     background-color: #000;
-    min-height: 90vh;
+    min-height: 140vh;
     top: 0%;
     left: 0%;
     right: 0%;
@@ -26,9 +26,10 @@ head, header, .services, .about, .contact, .portfolio, .faq{
 @media (max-width: 768px) {
     #hero {
         margin-bottom: 5%;
+        min-height: 121vh;
     }
     #hero #mx-image{
-        max-height: 70vh;
+        max-height: 89vh;
     }
 
     #social-links-col{
@@ -37,13 +38,16 @@ head, header, .services, .about, .contact, .portfolio, .faq{
     }
     #overlay{
         position: absolute;
+        height: 140%;
+
     }
+
 
 }
 #hero #mx-image{
     max-height: 65vh;
     max-width: 800px;
-    width: 100%;
+    width: 150%;
 }
 
 #hero #image{
@@ -70,7 +74,7 @@ color:#000;
     right: 0%;
     bottom: 0%;
     width: 100%;
-    height: 101%;
+    height: 140%;
     background: linear-gradient(0deg, #72D6FE 0%, #000000B8 100%);
     opacity: 0.9;
 }
@@ -135,4 +139,9 @@ opacity: 0.7;
 #form-input{
     background:none;
 }
+
+
+
+
+
 
