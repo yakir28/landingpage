@@ -42,6 +42,10 @@ head, header, .services, .about, .contact, .portfolio, .faq{
 
     }
 
+    #img-media{
+        margin-left:5%;
+    }
+
 
 }
 #hero #mx-image{
@@ -91,6 +95,10 @@ color:#000;
 
 #social-link{
     font-size: 40px;
+    border-radius: 99%;
+}
+#social-link i:hover , #social-link-2 i:hover{
+    color:#000;
 }
 #social-link-2{
 
@@ -141,6 +149,39 @@ opacity: 0.7;
 }
 
 
+
+/*--------------------------------------------------------------
+# whatsapp button
+--------------------------------------------------------------*/
+.whatsapp {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    left: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #72D6FE;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+
+  .whatsapp i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .whatsapp:hover {
+    background: #72D6FE;
+    color: #fff;
+  }
+  
+  .whatsapp.active {
+    visibility: visible;
+    opacity: 1;
+  }
 
 
 
