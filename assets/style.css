@@ -5,93 +5,57 @@ head, header, .services, .about, .contact, .portfolio, .faq{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-
-#hero{
-    
-    background-image: url(uploads/Design\ sans\ titre-13.png);
-    background-size:cover;
-    background-color: transparent;
-   
-    background-color: #000;
-    min-height: 140vh;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    overflow-x: hidden;
-    margin-bottom: 5%;
-
-
-}
-@media (max-width: 768px) {
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/uploads/AVI08227.jpg") top right no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+ 
+  
+  #hero:before {
+    content: "";
+    background: #72D6FE;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45505b;
+  }
+  #hero h2{
+    font-size: 35px;
+  }
+  
+  
+  @media (max-width: 992px) {
     #hero {
-        margin-bottom: 5%;
-        min-height: 121vh;
-    }
-    #hero #mx-image{
-        max-height: 89vh;
+      text-align: center;
     }
 
-    #social-links-col{
-    justify-content: center;
-    align-items: center;
-    }
-    #overlay{
-        position: absolute;
-        height: 140%;
+  }
+  
 
-    }
-
-    #img-media{
-        margin-left:5%;
-    }
-
-
-}
-#hero #mx-image{
-    max-height: 65vh;
-    max-width: 800px;
-    width: 150%;
-}
-
-#hero #image{
-    width: 700px;
-    height: 500px;
-}
 #hero #link, #link-2{
     text-decoration: none;
 }
 #hero #link:hover{
 color:#000;
 }
-#hero h1{
-    font-size: 50px;
-}
-#hero h2{
-    font-size: 25px;
-}
 
-.overlay{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    width: 100%;
-    height: 140%;
-    background: linear-gradient(0deg, #72D6FE 0%, #000000B8 100%);
-    opacity: 0.9;
-}
-#overlay{
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    width: 25%;
-    background: linear-gradient(to top, #000 0%, #6713d2 100%);
-    opacity: 0.4;
-    border-bottom-right-radius:155%;
-}
 
 #social-link{
     font-size: 40px;
@@ -185,5 +149,110 @@ background-color: #000;
   }
 
 
+/*--------------------------------------------------------------
+# portfolio
+--------------------------------------------------------------*/
+
+  
+  .portfolio .box {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  }
+  
+  .portfolio .box h3 {
+    font-weight: 400;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #282828;
+  }
+  
+  .portfolio .box h4 {
+    font-size: 42px;
+    color: #72D6FE;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio .box h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .portfolio .box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .portfolio .box ul {
+    padding: 20px 0;
+    list-style: none;
+    color: #282828;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+
+  .portfolio .box .btn-wrap {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .portfolio .box .btn-buy {
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #72D6FE;
+    color: #72D6FE;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .portfolio .box .btn-buy:hover {
+    background: #72D6FE;
+    color: #fff;
+  }
+  
+  .portfolio .recommended {
+    border-color: #72D6FE;
+  }
+  
+  .portfolio .recommended .btn-buy {
+    background: #72D6FE;
+    color: #fff;
+  }
+  
+  .portfolio .recommended .btn-buy:hover {
+    background: #72D6FE;
+    border-color: #72D6FE;
+  }
+  
+  .portfolio .recommended-badge {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 13px;
+    padding: 3px 25px 6px 25px;
+    background: #edfbf0;
+    color: #72D6FE;
+    border-radius: 50px;
+  }
+  
 
 
+  
