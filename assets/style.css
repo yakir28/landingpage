@@ -150,8 +150,9 @@ background-color: #000;
     visibility: visible;
     opacity: 1;
   }
-
-
+  .scrollspy-example {
+    height: 300px;
+  }
 /*--------------------------------------------------------------
 # portfolio
 --------------------------------------------------------------*/
@@ -256,3 +257,8 @@ background-color: #000;
     border-radius: 50px;
   }
   
+#best-sellers{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,214,254,1) 35%, rgba(0,212,255,1) 100%);
+
+  min-height: 80vh;
+  clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);}
