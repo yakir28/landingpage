@@ -322,7 +322,7 @@ background-color: #000;
   .ag-timeline_line-progress {
     width: 100%;
     height: 20%;
-    background-color: #03a9f4;
+    background-color: #72D6FE;
   }
   
   .ag-timeline-card_box {
@@ -346,7 +346,7 @@ background-color: #000;
     height: 50px;
     line-height: 50px;
     width: 50px;
-    border: 3px solid #03a9f4;
+    border: 3px solid #72D6FE;
     background-color: #1d1d1b;
     text-align: center;
     font-family: 'ESL Legend', sans-serif;
@@ -359,7 +359,7 @@ background-color: #000;
   
   .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;
-    background-color: #03a9f4;
+    background-color: #72D6FE;
   }
   
   .ag-timeline-card_meta-box {
@@ -371,14 +371,14 @@ background-color: #000;
     font-family: 'ESL Legend', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #03a9f4;
+    color: #72D6FE;
   }
   
   .ag-timeline-card_item {
     display: inline-block;
     width: 45%;
     margin: -77px 0 0;
-    background-color: #03a9f4;
+    background-color: #72D6FE;
     opacity: 0;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -424,7 +424,7 @@ background-color: #000;
     height: 18px;
     width: 18px;
     margin-top: 20px;
-    background-color: #03a9f4;
+    background-color: #72D6FE;
     z-index: -1;
     position: absolute;
     top: 0;
@@ -448,7 +448,7 @@ background-color: #000;
   
   .ag-timeline-card_img {
     width: 100%;
-    border: 1px solid #03a9f4;
+    border: 1px solid #72D6FE;
   }
   
   /*--- Responsive Code ---*/

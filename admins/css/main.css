@@ -1,0 +1,15 @@
+.hero{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+:-webkit-any(){
+    overflow-x: hidden;
+}
+header{
+    overflow-x:hidden ;
+}
+head{
+    overflow-x: hidden;
+}

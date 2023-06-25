@@ -15,7 +15,7 @@ if (!isset($_SESSION['admin_name'])) {
  
 
 <!DOCTYPE php>
-<html lang="en">
+<html lang="en" style="overflow-x:hidden;">
 
 <head class="bg-dark" style="overflow-x:hidden;">
   <meta charset="UTF-8">
@@ -26,6 +26,7 @@ if (!isset($_SESSION['admin_name'])) {
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
 
